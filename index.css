@@ -1,5 +1,4 @@
 
-
 body{
     background-color: rgba(0, 0, 0, 0.904);
 }
@@ -19,18 +18,12 @@ nav {
 ul {
     display: inline-block;
     width:100%;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
     padding-inline-start: 40px;
 }
 
 ul #contents li {
     
     display: inline-block;
-    margin-left: 1%;
-    padding: 1%;
     font-size: 120%;
     color: #2D3E4E;
     overflow: visible;
@@ -44,28 +37,58 @@ ul #contents li {
 li{
     text-align: center;
     display: inline-block;
-    padding: 2%;;
+    padding-right: 1%;
+    padding-left: 5%;
 }
 
 a {
     text-decoration: none;
     color: white;
+    display: inline-block;
+    text-align: right;
+    
 }
 
 h1 {
     font-size:50px;
     text-align: center;
-    margin-top: 15%;
+    padding-top:4%;
+    padding-bottom:4%;
     font-family: sans-serif;
     color: aliceblue;
+    width: 100%;
 }
 
 h2 {
     font-size:20px;
     text-align: center;
-    margin-top: 10%;
+    
     font-family: sans-serif;
     color: aliceblue;
 }
 
+footer{
+   color: white;
+   background-color: #2d3e4ecb;
+    padding-left: 5%;
+    display: inline-block;
+    width:80%;
+    padding-inline-start: 40px;
+    font-family: sans-serif;
+    
+}
 
+
+#contacts{
+    width:50%; 
+    text-align: right;
+}
+
+footer #contacts{
+display: inline-block;
+}
+
+p{
+    
+    display: inline-block;
+}
