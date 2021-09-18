@@ -1,94 +1,73 @@
 
 body{
-    background-color: rgba(0, 0, 0, 0.904);
+    background-color: #050246;
 }
 
-nav {
-    display: block;
-    font-weight: bolder;
-    font-family: sans-serif;
-    width: 100%;
-}
-
-#heading{
-    font-size: 300%;
-    display: inline-block;
-}
-
-ul {
-    display: inline-block;
-    width:100%;
-    padding-inline-start: 40px;
-}
-
-ul #contents li {
+header {
+  
+   
     
-    display: inline-block;
-    font-size: 120%;
-    color: #2D3E4E;
-    overflow: visible;
-}
+   
+    color: white; /*White font colour was chosen for the header as it goes well with the dark blue background.*/
+  }
+  
+  
+  
+  
+  
+  
+  /*The header li section decides the styling of the items in the navigation pane look like. Inside each li was a button that links the user around the application.
+  The size and appearance of each li was decided so that it makes up the header and doesn't look too big in contrast with the h1 title.
+  */
+  header li {
+    
+    font-weight: bold;
 
-#contents{
-    margin: 1%;
     display: inline-block;
-}
-
-li{
-    text-align: center;
-    display: inline-block;
-    padding-right: 1%;
-    padding-left: 5%;
-}
-
-a {
-    text-decoration: none;
+    text-decoration: none; /*No text decoration prevents default link formatting e.g. underlining the text.*/
+   
+  }
+  /*The buttons on the navigation pane are also styled with bold font and a solid border.*/ 
+  header button {
+    
+    background-color: white;
+   
+    height:100px;
+    width:350px;
+    margin-right:15px;
+    vertical-align: middle;
+    border-color: black;
+    border-style: solid;
+  }
+  
+  
+  /*The following sections are devoted to styling the navigation pane so that it looks different when the user hovers over the buttons.*/
+  header li a {
+    color: black;
+  }
+  
+  header li:hover {
     color: white;
+  }
+  
+  header button span {
+    cursor: pointer;
     display: inline-block;
-    text-align: right;
-    
-}
+    position: relative;
+    transition: 0.3s;
+  }
+ 
+ nav{
+     display:flex;
+     justify-content: center;
+ }
 
-h1 {
-    font-size:50px;
+  
+
+
+
+.nameandlogo{
+    margin-top: 10%;
+    display: block;
     text-align: center;
-    padding-top:4%;
-    padding-bottom:4%;
-    font-family: sans-serif;
-    color: aliceblue;
-    width: 100%;
-}
-
-h2 {
-    font-size:20px;
-    text-align: center;
-    
-    font-family: sans-serif;
-    color: aliceblue;
-}
-
-footer{
-   color: white;
-   background-color: #2d3e4ecb;
-    padding-left: 5%;
-    display: inline-block;
-    width:80%;
-    padding-inline-start: 40px;
-    font-family: sans-serif;
-    
-}
-
-
-#contacts{
-    width:50%; 
-    text-align: right;
-}
-
-footer #contacts{
-display: inline-block;
-}
-
-p{
-    
-    display: inline-block;
 }
