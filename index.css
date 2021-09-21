@@ -1,73 +1,53 @@
-
-body{
-    background-color: #050246;
+body {
+  background-color: #050246;
 }
 
 header {
-  
-   
-    
-   
-    color: white; /*White font colour was chosen for the header as it goes well with the dark blue background.*/
-  }
-  
-  
-  
-  
-  
-  
-  /*The header li section decides the styling of the items in the navigation pane look like. Inside each li was a button that links the user around the application.
-  The size and appearance of each li was decided so that it makes up the header and doesn't look too big in contrast with the h1 title.
-  */
-  header li {
-    
-    font-weight: bold;
+  color: white;
+  /*White font colour was chosen for the header as it goes well with the dark blue background.*/
+}
 
-    display: inline-block;
-    text-decoration: none; /*No text decoration prevents default link formatting e.g. underlining the text.*/
-   
-  }
-  /*The buttons on the navigation pane are also styled with bold font and a solid border.*/ 
-  header button {
-    
-    background-color: white;
-   
-    height:100px;
-    width:350px;
-    margin-right:15px;
-    vertical-align: middle;
-    border-color: black;
-    border-style: solid;
-  }
-  
-  
-  /*The following sections are devoted to styling the navigation pane so that it looks different when the user hovers over the buttons.*/
-  header li a {
-    color: black;
-  }
-  
-  header li:hover {
-    color: white;
-  }
-  
-  header button span {
-    cursor: pointer;
-    display: inline-block;
-    position: relative;
-    transition: 0.3s;
-  }
- 
- nav{
-     display:flex;
-     justify-content: center;
- }
+/*The buttons on the navigation pane are also styled with bold font and a solid border.*/
+header button {
+  background-color: white;
+  height: 100px;
+  width: 300%;
+  vertical-align: middle;
+  border-color: black;
+  border-style: solid;
+}
 
-  
+/*The following sections are devoted to styling the navigation pane so that it looks different when the user hovers over the buttons.*/
 
+header button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.3s;
+}
 
+nav {
+  display: flex;
+  justify-content: center;
+}
 
-.nameandlogo{
-    margin-top: 10%;
-    display: block;
-    text-align: center;
+.nameandlogo {
+  margin-top: 10%;
+  display: block;
+  text-align: center;
+}
+
+#logo {
+  height: 15%;
+  width: 15%;
+}
+
+#name {
+  height: 30%;
+  width: 30%;
+}
+
+li img {
+  height: auto;
+  width: auto;
 }
